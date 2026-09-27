@@ -82,7 +82,7 @@
   .todo-app > .row { min-height:calc(100vh - 64px); }
   .todo-header { display:flex; flex-direction:row; justify-content:space-between; align-items:flex-start!important; gap:14px; }
   .header-actions { gap:7px; }
-  .todo-btn-clear { padding:10px 11px; font-size:.8rem; }
+  .todo-btn-clear { padding:10px 11px; font-size:.8rem; white-space:nowrap; flex:none; }
   .theme-toggle-btn { width:40px; height:40px; }
   .todo-item { gap:10px; padding:12px; }
   .todo-actions { gap:4px; }

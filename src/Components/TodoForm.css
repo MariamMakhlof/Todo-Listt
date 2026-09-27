@@ -1,0 +1,8 @@
+.todo-form { width:100%; }
+.form-group { display:flex; gap:10px; width:100%; margin:0; }
+.form-input { flex:1; min-width:0; padding:14px 16px; border:1px solid transparent; border-radius:13px; outline:none; background:var(--surface-soft); color:var(--ink); font-size:.98rem; transition:border-color .2s, box-shadow .2s; }
+.form-input:focus { border-color:var(--ocean); box-shadow:0 0 0 4px rgba(33,158,188,.13); }
+.form-input::placeholder { color:var(--muted); opacity:.75; }
+.form-btn { padding:0 23px; border:0; border-radius:13px; background:var(--deep); color:white; font-weight:700; cursor:pointer; transition:transform .2s, background .2s; }
+.form-btn:hover { transform:translateY(-1px); background:var(--ocean); }
+.form-btn:active { transform:scale(.98); }
